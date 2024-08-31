@@ -3,37 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Room Booking</title>
+    <title>Navbar Example</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="booking-container">
-        <h1>Room Booking</h1>
-        <form action="get" method="get">
-            <label for="room-type">Room Type:</label>
-            <select id="room-type" name="roomType" required>
-                <option value="single">Single Room</option>
-                <option value="double">Double Room</option>
-                <option value="suite">Suite</option>
-            </select>
-
-            <label for="check-in">Check-In Date:</label>
-            <input type="date" id="check-in" name="checkInDate" required>
-
-            <label for="check-out">Check-Out Date:</label>
-            <input type="date" id="check-out" name="checkOutDate" required>
-
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required>
-
-            <button type="submit">Book Now</button>
-        </form>
-    </div>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="roombooking.html" target="__blank">Room Booking</a></li>
+                <li><a href="#tablebooking">Table Booking</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>

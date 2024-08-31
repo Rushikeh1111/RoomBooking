@@ -55,6 +55,10 @@ const bookingSchema = new mongoose.Schema({
   app.get('/',(req,res)=>{
     res.sendFile('index.html')
 })
+  app.get('/roombooing',(req,res)=>{
+    res.sendFile('roombooking.html')
+})
+
 
 
 
